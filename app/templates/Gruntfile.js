@@ -55,11 +55,18 @@
                     options: {
                         livereload: true,
                     },
-                    files: ['<%%=watchfiles.all %>'],
+                    files: ['<%=watchfiles.all %>'],
                     tasks: ['shell:serveend', 'cordova-prepareserve']
                 },
+                liveripple: {
+                    options: {
+                        livereload: true,
+                    },
+                    files: ['<%=watchfiles.all %>'],
+                    tasks: ['cordova-prepare']
+                },
                 liveemulate: {
-                    files: ['<%%=watchfiles.all %>'],
+                    files: ['<%=watchfiles.all %>'],
                     tasks: ['cordova-emulate-end', 'cordova-buildemulate']
                 },
                 livedevice: {
