@@ -21,18 +21,18 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yeoman-generator": "~0.13.4",
-    "generator-webapp": "~0.4.2",
-    "cordova": "~3.0.3",
-    "plugman": "~0.10.0",
-    "lodash": "~1.3.1",
-    "chalk": "~0.2.1"
+    "yeoman-generator": "~0.16.0",
+    "generator-webapp": "~0.4.9",
+    "cordova": "~3.4.1",
+    "plugman": "~0.21.0",
+    "lodash": "~2.4.1",
+    "chalk": "~0.4.0"
   },
   "devDependencies": {
-    "mocha": "~1.10.0"
+    "mocha": "~1.18.2"
   },
   "peerDependencies": {
-    "yo": ">=1.0.0"
+    "yo": ">=1.1.0"
   },
   "engines": {
     "node": ">=0.8.0",
